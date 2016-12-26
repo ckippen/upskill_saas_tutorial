@@ -1,4 +1,6 @@
 class Users::RegistrationsController < Devise::RegistrationsController
+  
+  # Extend Devise To Save With Subscription
   def create
     super do |resource|
       if params[:plan]
