@@ -40,6 +40,12 @@ gem 'hirb', '0.7.3'
 # Use Devise for User Authentication
 gem 'devise'
 
+# Use Stripe for payment processing
+gem 'stripe'
+
+# Use figaro for ENV variables
+gem 'figaro'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
